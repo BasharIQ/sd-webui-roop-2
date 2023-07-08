@@ -9,7 +9,7 @@ req_file = os.path.join(os.path.dirname(os.path.realpath(__file__)), "requiremen
 
 models_dir = os.path.abspath("models/roop")
 model_url = "https://github.com/P2Enjoy/sd-webui-roop-uncensored/releases/download/onnx/inswapper_128.onnx"
-model_name = os.path.basename(model_url)
+model_name = os.path.basename("sd-webui-roop-2")
 model_path = os.path.join(models_dir, model_name)
 
 def download(url, path):
